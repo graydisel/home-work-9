@@ -1,0 +1,21 @@
+:root {
+    --main-color: #34547A;
+    --secondary-color: #EEEFF1;
+}
+
+header {
+    background-color: var(--secondary-color);
+}
+
+.container {
+    width: max(100% - 40px, 1110px + 40px);
+    padding-inline: 20px;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 611px;
+    list-style-type: none;
+}
