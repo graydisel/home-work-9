@@ -11,19 +11,14 @@
     font-family: "Roboto", sans-serif;
 }
 
-header, main {
-    background-color: var(--secondary-color);
-    display: flex;
-    justify-content: center;
-}
-
 header {
     background-color: var(--secondary-color);
 }
 
-.container {
-    width: 1110px;
+.container__header {
+    max-width: 1110px;
     height: 700px;
+    margin-inline: auto;
 }
 
 .navbar__list {
@@ -46,7 +41,7 @@ header {
     color: var(--main-color);
 }
 
-.description h1 {
+.description__header {
     padding-top: 82px;
     padding-bottom: 45px;
     margin: 0;
@@ -54,7 +49,7 @@ header {
     font-weight: 500;
 }
 
-.description__about, .about__about {
+.description__about, .about__about, .process__about {
     font-size: 16px;
     color: var(--paragraph-color);
     letter-spacing: 0.02em;
@@ -67,7 +62,7 @@ header {
     height: 65px;
     width: 225px;
     margin-top: 58px;
-    color: white;
+    color: #ffffff;
     border: none;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -75,14 +70,12 @@ header {
     padding-block: 19px 20px;
 }
 
-main {
-    background-color: #F9F9F9;
-}
-
-main .container {
+.container__about {
     display: flex;
     justify-content: center;
     height: 359px;
+    background-color: #F9F9F9;
+    margin-inline: auto;
 }
 
 .about {
@@ -93,4 +86,59 @@ main .container {
 .about__header {
     padding-block: 112px 40px;
     margin: 0;
+    font-size: 32px;
+    font-weight: 500;
 }
+
+.container__projects {
+    margin-inline: auto;
+    background-color: var(--main-color);
+    color: #ffffff;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    gap: 49px;
+}
+
+.projects__item {
+    width: 141px;
+    height: 50px;
+    margin-block: auto;
+    background: left no-repeat url("../assets/project.svg");
+    padding-left: 70px;
+    line-height: 24px;
+}
+
+.large_font__projects {
+    font-size: 21px;
+}
+
+.container__process, .process {
+    display: flex;
+    justify-content: center;
+}
+
+.container__process {
+    height: 1004px;
+    background-color: #EEEFF1;
+}
+
+.process__item {
+    text-align: center;
+}
+
+.process__header {
+    padding-block: 112px 40px;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+
+
