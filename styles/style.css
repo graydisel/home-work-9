@@ -13,6 +13,7 @@
 
 header {
     background-color: var(--secondary-color);
+    padding-inline: 20px;
 }
 
 .container__header {
@@ -30,6 +31,7 @@ header {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.1em;
+    text-wrap: nowrap;
 }
 
 .navbar__item a {
@@ -54,7 +56,7 @@ header {
     color: var(--paragraph-color);
     letter-spacing: 0.02em;
     line-height: 26px;
-    max-width: 540px;
+    width: 540px;
 }
 
 .description__button {
@@ -76,6 +78,7 @@ header {
     height: 359px;
     background-color: #F9F9F9;
     margin-inline: auto;
+    padding-inline: 20px;
 }
 
 .about {
@@ -97,10 +100,11 @@ header {
     height: 250px;
     display: flex;
     justify-content: center;
+    padding-inline: 20px;
 }
 
 .projects {
-    max-width: 1110px;
+    min-width: 1110px;
     display: flex;
     justify-content: space-between;
     gap: 49px;
@@ -125,6 +129,7 @@ header {
     justify-content: center;
     margin-inline: auto;
     background-color: #EEEFF1;
+    padding-inline: 20px;
 }
 
 .process {
@@ -152,6 +157,7 @@ header {
 footer {
     background-color: var(--main-color);
     color: #ffffff;
+    padding-inline: 20px;
 }
 
 .container__footer {
