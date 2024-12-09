@@ -139,16 +139,34 @@ header {
 }
 
 .process__header {
-    padding-block: 100px 50px;
+    padding-block: 100px 42px;
     margin: 0;
     font-size: 32px;
     font-weight: 500;
 }
 
 .process__about {
-    padding-bottom: 57px;
+    padding-bottom: 50px;
 }
 
+footer {
+    background-color: var(--main-color);
+    color: #ffffff;
+}
 
+.container__footer {
+    max-width: 1110px;
+    height: 151px;
+    margin-inline: auto;
+}
 
+.footer__name {
+    font-size: 21px;
+    font-weight: 500;
+    padding-block: 50px 13px;
+}
 
+.footer__copyright {
+    font-size: 13px;
+
+}
