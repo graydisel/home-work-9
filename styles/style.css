@@ -307,10 +307,11 @@ footer {
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     header {
         padding-inline: 10px;
         height: 475px;
+        min-width: 375px;
     }
     .container__header {
         width: 335px;
@@ -340,6 +341,9 @@ footer {
     }
 
 
+    main {
+        min-width: 375px;
+    }
     .container__about, .container__projects, .container__process {
         padding-inline: 10px;
     }
@@ -364,19 +368,50 @@ footer {
 
     .top_row__projects, .bottom_row__projects {
         flex-direction: column;
+        gap: 30px;
     }
 
     .projects__item {
         height: 70px;
         width: 140px;
         font-size: 12px;
+        margin-block: 0;
     }
 
     .large_font__projects {
         font-size: 12px;
     }
+
+    .container__process {
+        height: 450px;
+    }
+    .process {
+        width: 335px;
+    }
+
+    .process__header {
+        padding-block: 32px 22px;
+        font-size: 24px;
+    }
+
     .video {
         width: 335px;
         height: 181px;
+    }
+
+
+    footer {
+        padding-inline: 10px;
+        min-width: 375px;
+    }
+    .container__footer {
+        width: 335px;
+    }
+    .footer__name {
+        font-size: 16px;
+    }
+
+    .footer__copyright {
+        font-size: 14px;
     }
 }
