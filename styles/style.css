@@ -187,7 +187,7 @@ footer {
 
 @media screen and (max-width: 1160px) {
     .container__header {
-        width: 728px;
+        width: 708px;
         height: 500px;
     }
 
@@ -222,7 +222,7 @@ footer {
         height: 260px;
     }
     .about {
-        min-width: 728px;
+        min-width: 708px;
     }
     .about__header {
         padding-top: 41px;
@@ -233,7 +233,7 @@ footer {
     .projects {
         flex-wrap: wrap;
         gap: 16px;
-        min-width: 728px;
+        min-width: 708px;
     }
     .projects__item {
         height: 72px;
@@ -243,8 +243,8 @@ footer {
         font-size: 16px;
     }
     .process {
-        height: 750px;
-        width: 728px;
+        height: 700px;
+        width: 708px;
     }
     .process__header {
         padding-top: 41px;
@@ -256,7 +256,7 @@ footer {
     .container__footer {
         text-align: center;
         height: 120px;
-        width: 728px;
+        width: 708px;
     }
     .footer__name {
         padding-top: 40px;
